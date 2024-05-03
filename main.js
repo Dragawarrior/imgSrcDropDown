@@ -12,6 +12,8 @@ const selectElement = document.querySelector('#selectProfile')
 const selectedValue = selectElement.value;
 console.log(selectedValue)
 
+//this is the important code that changes the imgSrc 
+
 addEventListener("change", (event)=>{
     console.log(event.target.value);
     if(event.target.value =='areia'){
